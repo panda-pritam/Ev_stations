@@ -1,0 +1,24 @@
+/* thin dark scrollbar for sidebar and lists */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(75 85 99) rgb(16 24 40);
+}
+
+/* safari */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(16 24 40);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(75 85 99);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(107 114 128);
+}
