@@ -91,10 +91,15 @@ function initMap() {
     });
 }
 
+function showLoader(show) {
+    document.getElementById('map-loader').classList.toggle('hidden', !show);
+}
+
 // show station details on hover
 function showPopup(e) {
-    const feature = map.forEachFeatureAtPixel(e.pixel, (f) => f, {
-        layerFilter: (layer) => layer !== searchAreaLayer
+    // only stations and zones, not the draw cursor or the search area
+    const feature = map.forEachFeatureAtPixel(e.pixel, (f, layer) => {
+        if (layer === vectorLayer || layer === searchResultLayer || layer === zonesLayer) return f;
     });
 
     const popup = document.getElementById('popup');

@@ -6,9 +6,21 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('clear-search').addEventListener('click', clearSearch);
 });
 
+// selected mode button is green, the other one blue
+function setActiveButton(type) {
+    const buttons = { Point: 'draw-point', Polygon: 'draw-polygon' };
+
+    for (const [mode, id] of Object.entries(buttons)) {
+        const button = document.getElementById(id);
+        button.classList.toggle('bg-green-600', mode === type);
+        button.classList.toggle('bg-blue-600', mode !== type);
+    }
+}
+
 // turn on drawing for a point or a polygon
 function startDrawing(type) {
     clearSearch();
+    setActiveButton(type);
 
     drawInteraction = new ol.interaction.Draw({ type: type });
     map.addInteraction(drawInteraction);
@@ -41,6 +53,7 @@ async function searchStations(geometry) {
     const summary = document.getElementById('station-search-summary');
     summary.classList.remove('hidden');
     summary.textContent = 'Searching...';
+    showLoader(true);
 
     try {
         const response = await fetch('/api/search', {
@@ -59,6 +72,8 @@ async function searchStations(geometry) {
     } catch (err) {
         console.error(err);
         summary.textContent = 'Search failed';
+    } finally {
+        showLoader(false);
     }
 }
 
@@ -108,6 +123,7 @@ function clearSearch() {
 
     searchAreaSource.clear();
     searchResultSource.clear();
+    setActiveButton(null);
 
     document.getElementById('station-search-hint').textContent = '';
     document.getElementById('station-search-summary').classList.add('hidden');

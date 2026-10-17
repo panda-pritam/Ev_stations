@@ -68,9 +68,9 @@
                 <div class="p-3 space-y-3">
                     <div class="flex gap-2">
                         <button type="button" id="draw-point"
-                                class="flex-1 bg-blue-600 hover:bg-blue-700 py-2 rounded text-sm">Point</button>
+                                class="flex-1 bg-blue-600 hover:opacity-90 py-2 rounded text-sm">Point</button>
                         <button type="button" id="draw-polygon"
-                                class="flex-1 bg-blue-600 hover:bg-blue-700 py-2 rounded text-sm">Polygon</button>
+                                class="flex-1 bg-blue-600 hover:opacity-90 py-2 rounded text-sm">Polygon</button>
                     </div>
 
                     <div>
@@ -132,6 +132,16 @@
         <!-- Map container -->
         <div class="relative h-full w-[calc(100vw-20rem)]">
             <div id="map" class="h-full w-full"></div>
+
+            <!-- loader while the search api is running -->
+            <div id="map-loader" class="absolute inset-0 z-20 hidden">
+                <div class="flex h-full items-center justify-center bg-black/40">
+                    <div class="flex items-center gap-3 bg-white text-black text-sm rounded shadow px-4 py-3">
+                        <span class="w-5 h-5 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></span>
+                        Searching stations...
+                    </div>
+                </div>
+            </div>
 
             <div id="address-box"
                 class="absolute top-3 right-3 z-10 w-72 bg-white text-black text-sm rounded shadow p-3 pr-8 hidden">
