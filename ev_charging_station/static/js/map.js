@@ -32,8 +32,8 @@ const searchResultStyle = new ol.style.Style({
 // zone polygon with its name in the middle
 function zoneStyle(feature) {
     return new ol.style.Style({
-        fill: new ol.style.Fill({ color: 'rgba(168, 85, 247, 0.12)' }),
-        stroke: new ol.style.Stroke({ color: '#a855f7', width: 2 }),
+        fill: new ol.style.Fill({ color: 'rgba(255, 255, 255, 0.12)' }),
+        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
         text: new ol.style.Text({
             text: feature.get('name'),
             font: 'bold 12px sans-serif',
