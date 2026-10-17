@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@10.2.1/ol.css"> -->
+{% endblock %}
+
+{% block content %}
+<div class="p-0 h-full w-full m-0">
+
+    <!-- Nav bar -->
+    <nav class="bg-white border-gray-200 text-white dark:bg-gray-900 h-16 w-full flex justify-center items-center">
+        
+        <h1 class="text-xl font-bold">EV Charging Station</h1>
+
+    </nav>
+    <!-- Main content -->
+    <main class="h-[calc(100vh-64px)] w-full bg-gray-800 flex">
+        <!-- side nav bar -->
+       <aside class="relative w-80 bg-white shadow flex flex-col dark:bg-gray-900 text-white overflow-y-scroll">
+
+            <!-- place search -->
+             <form id="search-form" class="flex gap-2 mb-3 m-2">
+                <input type="text" id="search-input" placeholder="Search a place..."
+                    class="flex-1 px-3 py-2 rounded bg-gray-800 text-white text-sm outline-none">
+                <button type="submit" class="px-3 py-2 bg-blue-600 hover:bg-blue-700 rounded text-sm">
+                    Search
+                </button>
+            </form>
+
+            <ul id="search-results" class="text-sm space-y-1 mb-4 absolute top-14 left-2 bg-white text-black max-h-80 overflow-scroll hidden m-2 w-full"></ul>
+
+            <details class="mb-4 rounded bg-gray-800">
+                <summary class="cursor-pointer p-3 font-semibold">Filters</summary>
+
+                <div class="p-3 space-y-3">
+                    <div>
+                        <label for="connector-filter" class="block text-sm mb-1">Connector type</label>
+                        <select id="connector-filter" class="w-full p-2 rounded bg-gray-900 text-sm">
+                            <option value="">All</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="operator-filter" class="block text-sm mb-1">Operator</label>
+                        <select id="operator-filter" class="w-full p-2 rounded bg-gray-900 text-sm">
+                            <option value="">All</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="power-filter" class="block text-sm mb-1">Min power</label>
+                        <select id="power-filter" class="w-full p-2 rounded bg-gray-900 text-sm">
+                            <option value="">All</option>
+                        </select>
+                    </div>
+
+                    <button type="button" id="clear-filters"
+                            class="w-full bg-gray-600 hover:bg-gray-500 py-2 rounded text-sm">
+                        Clear
+                    </button>
+                </div>
+            </details>
+
+            <details class="mb-4 rounded bg-gray-800">
+                <summary class="cursor-pointer p-3 font-semibold">Search Stations</summary>
+
+                <div class="p-3 space-y-3">
+                    <div class="flex gap-2">
+                        <button type="button" id="draw-point"
+                                class="flex-1 bg-blue-600 hover:bg-blue-700 py-2 rounded text-sm">Point</button>
+                        <button type="button" id="draw-polygon"
+                                class="flex-1 bg-blue-600 hover:bg-blue-700 py-2 rounded text-sm">Polygon</button>
+                    </div>
+
+                    <div>
+                        <label for="radius-select" class="block text-sm mb-1">Radius (for point)</label>
+                        <select id="radius-select" class="w-full p-2 rounded bg-gray-900 text-sm">
+                            <option value="2">2 km</option>
+                            <option value="5" selected>5 km</option>
+                            <option value="10">10 km</option>
+                        </select>
+                    </div>
+
+                    <p id="station-search-hint" class="text-xs text-gray-400"></p>
+                    <p id="station-search-summary" class="text-sm whitespace-pre-line hidden"></p>
+                    <ul id="station-search-list" class="text-sm space-y-1 max-h-60 overflow-y-auto"></ul>
+
+                    <button type="button" id="clear-search"
+                            class="w-full bg-gray-600 hover:bg-gray-500 py-2 rounded text-sm">
+                        Clear search
+                    </button>
+                </div>
+            </details>
+
+            <details class="mb-4 rounded bg-gray-800">
+                <summary class="cursor-pointer p-3 font-semibold">Zones</summary>
+
+                <div class="p-3 space-y-3">
+                    <label class="flex items-center gap-2 text-sm">
+                        <input type="checkbox" id="show-zones" checked>
+                        Show zones on map
+                    </label>
+                    <p class="text-xs text-gray-400">Station counts follow the filters above</p>
+                    <ul id="zone-list" class="text-sm space-y-2"></ul>
+                </div>
+            </details>
+
+
+
+            
+
+            <!-- Bottom: CSV upload -->
+            <div class="border-t p-4">
+                <form id="upload-form">
+                    {% csrf_token %}
+                    <h1 class="text-lg font-semibold my-2">Upload Station CSV</h1>
+
+                    <input type="file" name="csv_file" id="csv-file" accept=".csv"
+                        class="block w-full text-sm mb-3
+                                file:mr-3 file:py-2 file:px-3 file:rounded file:border-0
+                                file:bg-blue-600 file:text-white hover:file:bg-blue-700">
+                    <button type="submit" id="upload-csv-btn"
+                            class="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded">
+                        Upload
+                    </button>
+                </form>
+            </div>
+
+        </aside>
+
+        <!-- Map container -->
+        <div class="relative h-full w-[calc(100vw-20rem)]">
+            <div id="map" class="h-full w-full"></div>
+
+            <div id="address-box"
+                class="absolute top-3 right-3 z-10 w-72 bg-white text-black text-sm rounded shadow p-3 pr-8 hidden">
+                <button type="button" id="address-close"
+                        class="absolute top-1 right-2 text-gray-500 hover:text-black text-lg leading-none">
+                    &times;
+                </button>
+                <p id="address-text" class="whitespace-pre-line"></p>
+            </div>
+
+        </div>
+
+        <div id="popup"
+            class="bg-white text-black text-xs rounded shadow p-2 whitespace-pre-line pointer-events-none hidden">
+        </div>
+
+    </main>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="{% static 'js/map.js' %}"></script>
+<script src="{% static 'js/home.js' %}"></script>
+<script src="{% static 'js/filters.js' %}"></script>
+<script src="{% static 'js/search.js' %}"></script>
+<script src="{% static 'js/zones.js' %}"></script>
+
+{% endblock %}

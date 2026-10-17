@@ -1,0 +1,9 @@
+{
+    "tailwindCSS.includeLanguages": {
+        "django-html": "html"
+    },
+    "tailwindCSS.experimental.configFile": "ev_charging_station/static/css/tailwind.css",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    }
+}

@@ -1,0 +1,1392 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV001",
+        "name": "Tata Power - Phoenix Mall",
+        "operator": "Tata Power",
+        "connector_type": "CCS2",
+        "power_kw": 60.0,
+        "latitude": 12.9915,
+        "longitude": 80.2167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2167,
+          12.9915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV002",
+        "name": "Unnamed Station",
+        "operator": "Zeon",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.0418,
+        "longitude": 80.2341
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2341,
+          13.0418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV005",
+        "name": "Tata Power - Egmore",
+        "operator": "Tata Power",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.0686,
+        "longitude": 80.2648
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2648,
+          13.0686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV006",
+        "name": "Zeon Navalur Hub",
+        "operator": "Zeon",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 12.8375,
+        "longitude": 80.2195
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2195,
+          12.8375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV007",
+        "name": "Glida Perambur",
+        "operator": "Glida",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.118,
+        "longitude": 80.2365
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2365,
+          13.118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV008",
+        "name": "Shell Recharge Navalur",
+        "operator": "Shell Recharge",
+        "connector_type": "Type2",
+        "power_kw": 11.0,
+        "latitude": 12.8464,
+        "longitude": 80.231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.231,
+          12.8464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV009",
+        "name": "Statiq Anna Nagar",
+        "operator": "Statiq",
+        "connector_type": "Bharat AC001",
+        "power_kw": 10.0,
+        "latitude": 13.0814,
+        "longitude": 80.2054
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2054,
+          13.0814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV010",
+        "name": "Zeon Medavakkam Hub",
+        "operator": "Zeon",
+        "connector_type": "CCS2",
+        "power_kw": 120.0,
+        "latitude": 12.9105,
+        "longitude": 80.1976
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1976,
+          12.9105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV011",
+        "name": "Unnamed Station",
+        "operator": "ChargeZone",
+        "connector_type": "CCS2",
+        "power_kw": 120.0,
+        "latitude": 12.8926,
+        "longitude": 80.0886
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0886,
+          12.8926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV012",
+        "name": "Zeon Koyambedu Hub",
+        "operator": "Zeon",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.0743,
+        "longitude": 80.1929
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1929,
+          13.0743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV013",
+        "name": "Ather Grid Chromepet",
+        "operator": "Ather",
+        "connector_type": "CCS2",
+        "power_kw": 50.0,
+        "latitude": 12.9564,
+        "longitude": 80.1488
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1488,
+          12.9564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV014",
+        "name": "Zeon Perambur Hub",
+        "operator": "Zeon",
+        "connector_type": "Bharat AC001",
+        "power_kw": 10.0,
+        "latitude": 13.1163,
+        "longitude": 80.2383
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2383,
+          13.1163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV015",
+        "name": "Jio-bp pulse Kodambakkam",
+        "operator": "Jio-bp pulse",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.0547,
+        "longitude": 80.2282
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2282,
+          13.0547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV016",
+        "name": "Statiq Tambaram",
+        "operator": "Statiq",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 12.9196,
+        "longitude": 80.1161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1161,
+          12.9196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV017",
+        "name": "Ather Grid Nanganallur",
+        "operator": "Ather",
+        "connector_type": "CCS2",
+        "power_kw": 50.0,
+        "latitude": 12.9851,
+        "longitude": 80.1949
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1949,
+          12.9851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV018",
+        "name": "ChargeZone Mogappair",
+        "operator": "ChargeZone",
+        "connector_type": "CCS2",
+        "power_kw": 50.0,
+        "latitude": 13.0906,
+        "longitude": 80.1761
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1761,
+          13.0906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV020",
+        "name": "Glida Nanganallur",
+        "operator": "Glida",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 12.9864,
+        "longitude": 80.1884
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1884,
+          12.9864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV021",
+        "name": "Statiq Perambur",
+        "operator": "Statiq",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.1105,
+        "longitude": 80.2258
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2258,
+          13.1105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV022",
+        "name": "Statiq Egmore",
+        "operator": "Statiq",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.0718,
+        "longitude": 80.254
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.254,
+          13.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV023",
+        "name": "Unnamed Station",
+        "operator": "Bolt Earth",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.0765,
+        "longitude": 80.1968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1968,
+          13.0765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV024",
+        "name": "Zeon Anna Nagar Hub",
+        "operator": "Zeon",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.0893,
+        "longitude": 80.2074
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2074,
+          13.0893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV025",
+        "name": "Shell Recharge Thiruvanmiyur",
+        "operator": "Shell Recharge",
+        "connector_type": "Type2",
+        "power_kw": 11.0,
+        "latitude": 12.9751,
+        "longitude": 80.2626
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2626,
+          12.9751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV026",
+        "name": "Glida Royapettah",
+        "operator": "Glida",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.0606,
+        "longitude": 80.2699
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2699,
+          13.0606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV027",
+        "name": "Glida Perungudi",
+        "operator": "Glida",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 12.9594,
+        "longitude": 80.2502
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2502,
+          12.9594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV028",
+        "name": "Glida Navalur",
+        "operator": "Glida",
+        "connector_type": "CCS2",
+        "power_kw": 60.0,
+        "latitude": 12.8448,
+        "longitude": 80.2198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2198,
+          12.8448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV029",
+        "name": "ChargeZone Chromepet",
+        "operator": "ChargeZone",
+        "connector_type": "Type2",
+        "power_kw": 7.4,
+        "latitude": 12.9479,
+        "longitude": 80.1421
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1421,
+          12.9479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV030",
+        "name": "Zeon Porur Hub",
+        "operator": "Zeon",
+        "connector_type": "Bharat AC001",
+        "power_kw": 3.3,
+        "latitude": 13.0426,
+        "longitude": 80.1585
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1585,
+          13.0426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV032",
+        "name": "Ather Grid Saidapet",
+        "operator": "Ather",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.018,
+        "longitude": 80.2319
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2319,
+          13.018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV033",
+        "name": "Bolt Earth Chromepet",
+        "operator": "Bolt Earth",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 12.9459,
+        "longitude": 80.1366
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1366,
+          12.9459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV034",
+        "name": "Tata Power - Medavakkam",
+        "operator": "Tata Power",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 12.9184,
+        "longitude": 80.1841
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1841,
+          12.9184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV035",
+        "name": "Ather Grid Guindy",
+        "operator": "Ather",
+        "connector_type": "Type2",
+        "power_kw": 7.4,
+        "latitude": 13.0128,
+        "longitude": 80.2051
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2051,
+          13.0128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV036",
+        "name": "ChargeZone Kilpauk",
+        "operator": "ChargeZone",
+        "connector_type": "Bharat AC001",
+        "power_kw": 3.3,
+        "latitude": 13.0846,
+        "longitude": 80.2456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2456,
+          13.0846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV037",
+        "name": "Bolt Earth Madipakkam",
+        "operator": "Bolt Earth",
+        "connector_type": "Type2",
+        "power_kw": 11.0,
+        "latitude": 12.9679,
+        "longitude": 80.193
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.193,
+          12.9679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV038",
+        "name": "Unnamed Station",
+        "operator": "Shell Recharge",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.0486,
+        "longitude": 80.2178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2178,
+          13.0486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV039",
+        "name": "Zeon Guindy Hub",
+        "operator": "Zeon",
+        "connector_type": "CCS2",
+        "power_kw": 120.0,
+        "latitude": 13.0107,
+        "longitude": 80.2168
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2168,
+          13.0107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV040",
+        "name": "Ather Grid Vadapalani",
+        "operator": "Ather",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.0492,
+        "longitude": 80.2108
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2108,
+          13.0492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV041",
+        "name": "Bolt Earth Besant Nagar",
+        "operator": "Bolt Earth",
+        "connector_type": "Type2",
+        "power_kw": 7.4,
+        "latitude": 12.9991,
+        "longitude": 80.2718
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2718,
+          12.9991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV042",
+        "name": "Zeon Nanganallur Hub",
+        "operator": "Zeon",
+        "connector_type": "CCS2",
+        "power_kw": 30.0,
+        "latitude": 12.9875,
+        "longitude": 80.1968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1968,
+          12.9875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV043",
+        "name": "Statiq Kilpauk",
+        "operator": "Statiq",
+        "connector_type": "Bharat AC001",
+        "power_kw": 10.0,
+        "latitude": 13.0837,
+        "longitude": 80.2478
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2478,
+          13.0837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV045",
+        "name": "ChargeZone Teynampet",
+        "operator": "ChargeZone",
+        "connector_type": "Bharat AC001",
+        "power_kw": 10.0,
+        "latitude": 13.0395,
+        "longitude": 80.2457
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2457,
+          13.0395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV046",
+        "name": "Glida Guindy",
+        "operator": "Glida",
+        "connector_type": "CCS2",
+        "power_kw": 60.0,
+        "latitude": 12.9999,
+        "longitude": 80.2133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2133,
+          12.9999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV047",
+        "name": "Glida Madhavaram",
+        "operator": "Glida",
+        "connector_type": "Type2",
+        "power_kw": 7.4,
+        "latitude": 13.1564,
+        "longitude": 80.2243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2243,
+          13.1564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV048",
+        "name": "Zeon Ashok Nagar Hub",
+        "operator": "Zeon",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.0398,
+        "longitude": 80.2078
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2078,
+          13.0398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV049",
+        "name": "Ather Grid Egmore",
+        "operator": "Ather",
+        "connector_type": "CCS2",
+        "power_kw": 30.0,
+        "latitude": 13.0717,
+        "longitude": 80.2623
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2623,
+          13.0717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV050",
+        "name": "Jio-bp pulse Washermanpet",
+        "operator": "Jio-bp pulse",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.1167,
+        "longitude": 80.284
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.284,
+          13.1167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV051",
+        "name": "Shell Recharge Royapettah",
+        "operator": "Shell Recharge",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.0563,
+        "longitude": 80.2633
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2633,
+          13.0563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV052",
+        "name": "Unnamed Station",
+        "operator": "Tata Power",
+        "connector_type": "Bharat AC001",
+        "power_kw": 3.3,
+        "latitude": 12.9182,
+        "longitude": 80.1134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1134,
+          12.9182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV053",
+        "name": "Statiq Royapettah",
+        "operator": "Statiq",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.0601,
+        "longitude": 80.2619
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2619,
+          13.0601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV054",
+        "name": "Bolt Earth Kodambakkam",
+        "operator": "Bolt Earth",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.0538,
+        "longitude": 80.2328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2328,
+          13.0538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV055",
+        "name": "Tata Power - Washermanpet",
+        "operator": "Tata Power",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.1209,
+        "longitude": 80.2807
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2807,
+          13.1209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV056",
+        "name": "ChargeZone Mylapore",
+        "operator": "ChargeZone",
+        "connector_type": "CCS2",
+        "power_kw": 30.0,
+        "latitude": 13.0379,
+        "longitude": 80.2625
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2625,
+          13.0379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV057",
+        "name": "Ather Grid Thiruvanmiyur",
+        "operator": "Ather",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 12.9851,
+        "longitude": 80.2552
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2552,
+          12.9851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV059",
+        "name": "Tata Power - Adyar",
+        "operator": "Tata Power",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.0082,
+        "longitude": 80.2532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2532,
+          13.0082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV060",
+        "name": "Glida Alwarpet",
+        "operator": "Glida",
+        "connector_type": "Bharat AC001",
+        "power_kw": 3.3,
+        "latitude": 13.0278,
+        "longitude": 80.2621
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2621,
+          13.0278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV061",
+        "name": "Glida Nungambakkam",
+        "operator": "Glida",
+        "connector_type": "CCS2",
+        "power_kw": 60.0,
+        "latitude": 13.0613,
+        "longitude": 80.2374
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2374,
+          13.0613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV062",
+        "name": "Tata Power - Mylapore",
+        "operator": "Tata Power",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.0404,
+        "longitude": 80.2727
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2727,
+          13.0404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV063",
+        "name": "Jio-bp pulse Adyar",
+        "operator": "Jio-bp pulse",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.002,
+        "longitude": 80.2506
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2506,
+          13.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV064",
+        "name": "Shell Recharge Nanganallur",
+        "operator": "Shell Recharge",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 12.9868,
+        "longitude": 80.1858
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1858,
+          12.9868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV065",
+        "name": "Statiq Kodambakkam",
+        "operator": "Statiq",
+        "connector_type": "Bharat AC001",
+        "power_kw": 3.3,
+        "latitude": 13.0469,
+        "longitude": 80.2318
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2318,
+          13.0469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV066",
+        "name": "Ather Grid Valasaravakkam",
+        "operator": "Ather",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.0337,
+        "longitude": 80.178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.178,
+          13.0337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV067",
+        "name": "Unnamed Station",
+        "operator": "Ather",
+        "connector_type": "Type2",
+        "power_kw": 11.0,
+        "latitude": 12.9376,
+        "longitude": 80.2401
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2401,
+          12.9376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV068",
+        "name": "Ather Grid Perambur",
+        "operator": "Ather",
+        "connector_type": "Type2",
+        "power_kw": 7.4,
+        "latitude": 13.1154,
+        "longitude": 80.2295
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2295,
+          13.1154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV069",
+        "name": "ChargeZone Tambaram",
+        "operator": "ChargeZone",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 12.9279,
+        "longitude": 80.1235
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1235,
+          12.9279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV070",
+        "name": "ChargeZone Egmore",
+        "operator": "ChargeZone",
+        "connector_type": "Type2",
+        "power_kw": 22.0,
+        "latitude": 13.0804,
+        "longitude": 80.2572
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2572,
+          13.0804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV071",
+        "name": "Jio-bp pulse Pallavaram",
+        "operator": "Jio-bp pulse",
+        "connector_type": "Bharat AC001",
+        "power_kw": 3.3,
+        "latitude": 12.9662,
+        "longitude": 80.1512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1512,
+          12.9662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV072",
+        "name": "Tata Power - Royapettah",
+        "operator": "Tata Power",
+        "connector_type": "Bharat AC001",
+        "power_kw": 3.3,
+        "latitude": 13.0543,
+        "longitude": 80.2689
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2689,
+          13.0543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV074",
+        "name": "Jio-bp pulse OMR Karapakkam",
+        "operator": "Jio-bp pulse",
+        "connector_type": "CCS2",
+        "power_kw": 60.0,
+        "latitude": 12.9201,
+        "longitude": 80.2317
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2317,
+          12.9201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV075",
+        "name": "Shell Recharge Sholinganallur",
+        "operator": "Shell Recharge",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 12.8961,
+        "longitude": 80.2296
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2296,
+          12.8961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV076",
+        "name": "Statiq Koyambedu",
+        "operator": "Statiq",
+        "connector_type": "Bharat DC001",
+        "power_kw": 15.0,
+        "latitude": 13.0675,
+        "longitude": 80.1963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1963,
+          13.0675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV077",
+        "name": "ChargeZone Perungudi",
+        "operator": "ChargeZone",
+        "connector_type": "Type2",
+        "power_kw": 11.0,
+        "latitude": 12.9696,
+        "longitude": 80.2477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2477,
+          12.9696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV078",
+        "name": "Bolt Earth Sholinganallur",
+        "operator": "Bolt Earth",
+        "connector_type": "Bharat AC001",
+        "power_kw": 10.0,
+        "latitude": 12.9038,
+        "longitude": 80.2272
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2272,
+          12.9038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV079",
+        "name": "Zeon Kodambakkam Hub",
+        "operator": "Zeon",
+        "connector_type": "CHAdeMO",
+        "power_kw": 50.0,
+        "latitude": 13.0455,
+        "longitude": 80.2322
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2322,
+          13.0455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "EV080",
+        "name": "Tata Power - Nungambakkam",
+        "operator": "Tata Power",
+        "connector_type": "CCS2",
+        "power_kw": 50.0,
+        "latitude": 13.0677,
+        "longitude": 80.2448
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2448,
+          13.0677
+        ]
+      }
+    }
+  ]
+}
